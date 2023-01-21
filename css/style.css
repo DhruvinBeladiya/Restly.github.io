@@ -1,0 +1,1362 @@
+/* =================font connectivity=============== */
+
+/* nunito-regular - latin */
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/nunito-v25-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/nunito-v25-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/nunito-v25-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/nunito-v25-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/nunito-v25-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/nunito-v25-latin-regular.svg#Nunito') format('svg');
+    /* Legacy iOS */
+}
+
+/* nunito-500 - latin */
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/nunito-v25-latin-500.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/nunito-v25-latin-500.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/nunito-v25-latin-500.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/nunito-v25-latin-500.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/nunito-v25-latin-500.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/nunito-v25-latin-500.svg#Nunito') format('svg');
+    /* Legacy iOS */
+}
+
+/* nunito-600 - latin */
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/nunito-v25-latin-600.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/nunito-v25-latin-600.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/nunito-v25-latin-600.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/nunito-v25-latin-600.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/nunito-v25-latin-600.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/nunito-v25-latin-600.svg#Nunito') format('svg');
+    /* Legacy iOS */
+}
+
+/* nunito-700 - latin */
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/nunito-v25-latin-700.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/nunito-v25-latin-700.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/nunito-v25-latin-700.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/nunito-v25-latin-700.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/nunito-v25-latin-700.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/nunito-v25-latin-700.svg#Nunito') format('svg');
+    /* Legacy iOS */
+}
+
+/* nunito-800 - latin */
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/nunito-v25-latin-800.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/nunito-v25-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/nunito-v25-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/nunito-v25-latin-800.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/nunito-v25-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/nunito-v25-latin-800.svg#Nunito') format('svg'); /* Legacy iOS */
+  }
+
+/* rubik-regular - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/rubik-v21-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/rubik-v21-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/rubik-v21-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/rubik-v21-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/rubik-v21-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/rubik-v21-latin-regular.svg#Rubik') format('svg');
+    /* Legacy iOS */
+}
+
+/* =================== Default css =================== */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Rubik';
+}
+
+.container
+{
+    max-width: 100%;
+    /* margin: 0 auto; */
+    padding: 0 5px;
+}
+.container-2
+{
+    max-width: 100%;
+    padding: 120px 35px;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.between
+{
+    justify-content: space-between;
+}
+.center
+{
+    justify-content: center;
+}
+ol,ul
+{
+    list-style: none;
+}
+
+a
+{
+    color: var(--black);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.align
+{
+    align-items: center;
+}
+.pdt-5
+{
+    padding-top: 5px;
+}
+.pdb-5
+{
+    padding-bottom: 5px;
+}
+.pdl-10
+{
+    padding-left: 10px;
+}
+.pdr-10
+{
+    padding-right: 10px;
+}
+.pdt-120
+{
+    padding-top: 120px;
+}
+.pdb-120
+{
+    padding-bottom: 120px;
+}
+.pdr-120
+{
+    padding-right: 120px;
+}
+.pdl-120
+{
+    padding-left: 120px;
+}
+.pd-120
+{
+    padding: 120px;
+}
+.pdt-0
+{
+    padding-top: 0;
+}
+.pdb-0
+{
+    padding-bottom: 0;
+}
+:root
+{
+    --bgcolor: #03091F; 
+    --white: #fff;
+    --black: #000;  
+    --orange: #f43336; 
+}
+
+/* ================== Header section ============================== */
+
+.bg_theme
+{
+    background-color: var(--bgcolor);
+}
+
+.web_info
+{
+    color: var(--white);
+    padding: 5px 0;
+    padding-left: 280px;
+    position: relative;
+}
+
+.contact_info li:not(:last-child),
+.social_icon li:not(:last-child)
+{   
+    padding-right: 30px;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+.contact_info li,
+.social_icon li
+{
+    padding: 5px 0;
+    margin-left: 30px;
+}
+
+.contact_info a,
+.social_icon a
+{
+    color: var(--white);
+    transition: 0.5s;
+}
+.contact_info i
+{
+    color: var(--orange);
+    margin-right: 5px;
+}
+ul li select
+{
+    background: none;  
+    border: transparent;
+    color: var(--white);
+}
+ul li option
+{
+    color: var(--black);
+}
+.social_icon i
+{
+    color: var(--white);
+    margin-right: 10px;   
+    transition: 0.5s;
+}
+.web_info a:hover,
+.social_icon i.social:hover
+{
+    color: var(--orange);
+    cursor: pointer;
+}
+
+/* ========================== Navbar ============================= */
+
+.navbar
+{
+    background-color: var(--white);
+    /* background-attachment: fixed;
+    top: 0; */
+}
+.logo a
+{
+    padding: 40px 60px;
+    display: inline-block;
+    background-color: var(--orange);
+    z-index: 500;
+    flex: none;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.main_menu
+{
+    justify-content: center;
+    margin-left: 180px;
+    font-weight: 700;
+}
+.main_menu li 
+{
+    padding: 35px 15px;
+    position: relative;
+}
+.sub_menu 
+{
+    width: 200px;
+    background-color: var(--white);
+    box-shadow: 1px 1px 3px black , -1px 0px 3px black;
+    z-index: 100;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+.sub_menu li 
+{
+    padding: 10px 20px;
+    border-bottom: 1px solid gray;
+}
+.main_menu li:hover .sub_menu
+{
+    display: block;
+    transition: .4s;
+}
+.main_menu li a
+{
+    color: black;
+    padding: 0 5px;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+}
+.main_menu li a::before
+{
+    content: '';
+    width: 0;
+    height: 0;
+    background-color: var(--orange);
+    position: absolute;
+    top: 100%;
+    left: 5px;
+    transition: .4s ease-in;
+}
+.main_menu li a:hover::before
+{
+    width: 100%;
+    height: 3px;
+}
+.main_menu li i
+{
+    font-size: 11px;
+}
+.main_menu li .plus
+{
+    position: absolute;
+    top: 40px;
+    right: 7px;
+}
+.main_menu li .minus
+{
+    position: absolute;
+    top: 40px;
+    right: 7px;
+    display: none;
+}
+.main_menu li:hover .plus
+{
+    display: none;
+}
+.main_menu li:hover .minus
+{
+    display: block;
+    color: var(--orange);
+    transition: .4s ease-out;
+}
+
+/* ================================ slider section css ======================================== */
+
+.box
+{
+    position: relative;
+}
+.img_box1
+{
+    height: 80vh;
+    background: url(../images/asset\ 1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(0.4);
+}
+.img_box2
+{
+    height: 80vh;
+    background: url(../images/asset\ 2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(0.4);
+}
+.img_box3
+{
+    height: 80vh;
+    background: url(../images/asset\ 3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(0.4);
+}
+.caption_box
+{
+    width: 50%;
+    padding: 25px;
+    color: white;
+    z-index: 100;
+    margin-left: 80px;
+    text-align: left;
+    position: absolute;
+    top: 25%;
+}
+.caption_box .title
+{
+    text-transform: uppercase;
+}
+.caption_box .heading
+{
+    font-family: 'Nunito';
+    font-size: 55px;
+    padding: 10px 0;
+}
+.caption_box p 
+{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.caption_box button,
+.about_content button,
+.call button,
+.privacy_content button
+{
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 30px 30px 0 0;
+    padding: 18px 35px;
+}
+.caption_box button.btn1,
+.about_content button.btn1,
+.privacy_content button.btn1
+{
+    color: var(--white);
+    background-color: var(--orange);
+    transition: all .8s;
+}
+.caption_box button.btn2
+{
+    background-color: var(--white);
+    transition: all .8s;
+}
+.caption_box button i {
+    transition: .5s;
+}
+.caption_box button:hover i
+{
+    transform: translate(10px);
+    /* transition: 0.5s; */
+}
+.caption_box button.btn1:hover
+{
+    color: var(--black);
+    background-color: var(--white);
+}
+.caption_box button.btn2:hover
+{
+    color: var(--white);
+    background-color: var(--orange);
+}
+
+#slider1.owl-carousel .owl-nav
+{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50px);
+}
+#slider1.owl-carousel .owl-nav button.owl-prev,
+#slider1.owl-carousel .owl-nav button.owl-next
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: var(--orange);
+    background-color: var(--white);
+}
+#slider1.owl-carousel .owl-nav button.owl-prev
+{
+    position: absolute;
+    left: 25px;
+    top: 0;
+}
+#slider1.owl-carousel .owl-nav button.owl-next
+{
+    position: absolute;
+    right: 25px;
+    top: 0;
+}
+#slider1.owl-carousel .owl-nav button.owl-prev:hover,
+#slider1.owl-carousel .owl-nav button.owl-next:hover
+{
+    color: var(--white);
+    background-color: var(--orange);
+    transition: 0.5s;
+}
+#slider1.owl-theme .owl-dots
+{
+    display: none;
+}
+
+/* =================================== Features Section css ======================== */
+
+
+.features .features_info .icon
+{
+    flex: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 145px;
+    background-color: var(--white);
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 50px rgb(0 0 0 / 10%);
+}
+.features_info:not(:last-child)
+{
+    border-right: 1px dashed rgba(0, 0, 0, 0.4);
+}
+.features_info .content h3
+{
+    font-family: 'Nunito';
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 1.55;
+    margin-bottom: 6px;
+}
+.features_info .content h3:hover a
+{
+    color: var(--orange);
+    transition: .5s;
+}
+.features_info .content p
+{
+    line-height: 30px;
+}
+
+/* ======================== About Section Css ======================= */
+
+.left
+{
+    position: relative;
+}
+.about_img img:first-child
+{
+    transform: translateY(90px);
+    margin-right: 25px;
+}
+.left-content
+{
+    max-width: 320px;
+    color: var(--white);
+    background-image: url(../images/asset\ 31.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+    padding: 40px;
+    z-index: 1;
+    position: absolute;
+    top: 70%;
+    right: 35px;
+}
+.left-content::before
+{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #1D52B4;
+    z-index: -1;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.left-content h3
+{
+    margin-bottom: 10px;
+}
+.left-content p
+{
+    line-height: 30px;
+}
+
+.about_content
+{
+    padding: 0 95px;
+    flex-wrap: wrap;
+}
+.about_content h4
+{
+    color: var(--orange);
+    margin-bottom: 25px;
+}
+.about_content h2
+{
+    font-family: 'Nunito';
+    font-weight: 900;
+    font-size: 37px;
+    margin-bottom: 25px;
+}
+.about_content p
+{
+    color: rgba(100, 100, 100, 1.5);
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+.about_content ul li
+{
+    color: rgba(100, 100, 100, 1.1);
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.about_content ul li i 
+{
+    color: var(--orange);
+    margin-right: 20px;
+}
+.about_content button:hover,
+.privacy_content button:hover
+{
+    background-color: var(--black);
+    transition: .5s;
+}
+.about_content button:hover i,
+.privacy_content button:hover i
+{
+    transform: translateX(10px);
+    transition: .5s;
+}
+
+/* =============== Services Section Css ===================== */
+
+.services
+{
+    opacity: 0.95;
+    background-color: #F8F8F8;
+}
+.services_info
+{
+    justify-content: center!important;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.services_info span
+{
+    color: var(--orange);
+    font-weight: 600;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+.services_info h1
+{
+    font-family: 'Nunito';
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.services_slider
+{
+    width: 270px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 50px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    padding: 35px;
+}
+.services_slider:hover
+{
+    color: var(--white);
+    background-color: var(--black);
+    transition: .5s;
+}
+.services_slider:hover h3 a
+{
+    color: var(--white);
+}
+.services_slider:hover .read
+{
+    color: var(--orange);
+}
+.service_img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    line-height: 145px;
+    text-align: center;
+    background-color: #F8F8F8;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.service_img.img1
+{
+    background-image: url(../images/asset\ 11.png);
+}
+.service_img.img2
+{
+    background-image: url(../images/asset\ 10.png);
+}
+.service_img.img3
+{
+    background-image: url(../images/asset\ 9.png);
+}
+.services_content h3
+{
+    color: var(--black);
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.services_content p
+{
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.services_content .read
+{
+    font-weight: 600;
+    font-size: 15px;
+}
+.services_content i
+{
+    color: var(--orange);
+    font-size: 14px;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+.services_content .read:hover
+{
+    text-decoration: underline;
+}
+.services_content .read:hover i
+{
+    transform: translateX(3px);
+    transition: .5s;
+}
+
+/* ================== Services Section Slider ==================== */
+
+#slider2.owl-theme .owl-dots
+{
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+}
+#slider2.owl-theme .owl-dots .owl-dot
+{
+    color: var(--orange);
+}
+#slider2.owl-theme .owl-dots .owl-dot span
+{
+    width: 5px;
+    height: 5px;
+    background-color: var(--orange);
+    border: 1px solid transparent;
+    outline: 1px solid transparent;
+    outline-offset: 8px;
+    transition: .5s;
+}
+#slider2.owl-theme .owl-dots .owl-dot.active span
+{
+    outline-color: var(--orange);
+}
+
+/* ================= Counter Section Css ====================== */
+
+.counter
+{
+    background-color: #03091f;
+    padding-top: 80px;
+    padding-bottom: calc(80px - 25px);
+}
+.counter .counter_info
+{
+    z-index: 1;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 130px;
+    padding-left: 50px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.counter .counter_info:not(:last-child)
+{
+    border-right: 1px dashed rgba(255, 255, 255, 0.2);
+}
+.counter .counter_icon
+{
+    margin-right: 30px;
+}
+.counter .counter_content
+{
+    color: var(--white);
+}
+.counter .counter_content span.counter_text
+{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    line-height: 1;
+    display: inline-block;
+}
+.counter .counter_info:not(:last-child) .counter_content span.counter_text::before
+{
+    content: '45k';
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    z-index: -1000;
+    font-size: 120px;
+    opacity: 0.1;
+}
+.counter .counter_info:last-child .counter_content span.counter_text::before
+{
+    content: '220+';
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    z-index: -1000;
+    font-size: 120px;
+    opacity: 0.1;
+}
+.counter .counter_content span
+{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* ======================= Protect Section Css ======================= */
+
+.protect_content span
+{
+    color: var(--orange);
+    font-weight: 900;
+}
+.protect_content h2
+{
+    margin-top: 25px;   
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Nunito';
+    margin-bottom: 30px;
+}
+.protect_item
+{
+    padding: 25px 20px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.protect_item:hover
+{
+    color: var(--white);
+    background-color: var(--bgcolor);
+}
+.protect_item:hover a
+{
+    color: var(--white);
+}
+.protect_item .icon
+{
+    flex: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--orange);
+    text-align: center;
+    line-height: 105px;
+    margin-right: 30px
+}
+.protect_item .content h4
+{
+    font-family: 'Nunito';
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.protect_item .content p
+{
+    line-height: 30px;
+}
+
+/* ===================== Privacy Section Css ================= */
+
+.privacy_info
+{
+    align-items: center;
+}
+.privacy_img 
+{
+    z-index: -100;
+}
+.privacy_content
+{
+    width: 600px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 70px rgb(0 0 0 / 10%);
+    padding: 50px 0px 60px 80px;
+    z-index: 100;
+}
+.privacy_content > span
+{
+    color: var(--orange);
+    margin-bottom: 25px;
+    display: inline-block;
+}
+.privacy_content h2
+{
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+.privacy_content p
+{
+    color: rgba(100, 100, 100, 1.5);
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.privacy_content ul li
+{
+    color: rgba(100, 100, 100, 0.9);
+    font-weight: 600;
+    line-height: 40px;
+    margin-right: 25px;
+}
+.privacy_content ul li i
+{
+    color: var(--orange);
+    font-size: 14px;
+    font-weight: 900;
+    margin-right: 15px;
+}
+
+/* ===================== Our Project Section Css ================= */
+
+.project_top
+{
+    text-align: center;
+    padding: 0 345px;
+    margin-bottom: 55px;
+}
+.project_top span
+{
+    color: var(--orange);
+    font-weight: 700;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+.project_top h2
+{
+    font-family: 'Nunito';
+    font-size: 36px;
+    font-weight: 900;
+}
+.project_info
+{
+    width: 25%;
+    position: relative;
+}
+.project_info .img_box img
+{
+    width: calc(100% - 30px);
+    object-fit: cover;
+    margin: 15px;
+}
+.project_info .caption
+{
+    position: absolute;
+    width: 250px;
+    bottom: 0;
+    left: 35px;
+    background-color: var(--white);
+    border-radius: 5px;
+    padding: 30px 25px 35px;
+    opacity: 0;
+    /* display: none; */
+}
+.project_info:hover .caption
+{
+    /* display: block; */
+    opacity: 1;
+    transform: translateY(-40px);
+    transition: .5s;
+}
+.project_info:hover img
+{
+    filter: brightness(0.5);
+    transition: .5s;
+}
+.project_info .caption h3
+{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 40px;
+    margin-bottom: 8px;
+    transition: .8s;
+}
+.project_info .caption h3:hover
+{
+    color: var(--orange);
+    cursor: pointer;
+}
+.project_info .caption span a
+{
+    color: var(--orange);
+}
+
+/* ===================== Auther Section Css ================== */
+
+.auther
+{
+    position: relative;
+}
+.back
+{
+    height: 100vh;
+    background-image: url(../images/asset\ 35.jpeg);
+    background-repeat: no-repeat;
+    background-position: left;
+    filter: brightness(0.4);
+}
+.auther_info
+{
+    width: 55%;
+    background-color: var(--white);
+    box-shadow: 0px 10px 70px rgb(0 0 0 / 10%);
+    padding: 70px;
+    /* position: absolute;
+    top: 325px;
+    left: 50px; */
+}
+.auther_desc
+{
+    align-items: center;
+}
+.auther_info p
+{
+    color: rgba(100, 100, 100, 1.5);
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 45px;
+}
+.auther_desc .caption
+{
+    margin-left: 25px;
+}
+.auther_desc h3
+{
+    font-family: 'Nunito';
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.auther_desc span
+{
+    color: var(--orange);
+    font-size: 14px;
+}
+#slider3.owl-carousel
+{
+    margin-top: -625px;
+}
+#slider3.owl-carousel .owl-nav
+{
+    position: absolute;
+    width: 100%;
+    bottom: 85px;
+    right: 65px;
+}
+#slider3.owl-theme .owl-dot
+{
+    display: none;
+}
+#slider3.owl-carousel .owl-nav button.owl-prev,
+#slider3.owl-carousel .owl-nav button.owl-next
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+#slider3.owl-carousel .owl-nav button
+{
+    color: var(--white);
+    background-color: var(--orange);
+}
+
+/* ===================== Blog Section Css =================== */
+
+.blog_top
+{
+    text-align: center;
+    padding: 0 385px;
+    margin-bottom: 55px;
+}
+.blog_top span
+{
+    color: var(--orange);
+    font-weight: 700;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+.blog_top h2
+{
+    font-family: 'Nunito';
+    font-size: 36px;
+    font-weight: 900;
+}
+.blog_info
+{
+    width: 370px;
+    border-radius: 5px;
+    position: relative;
+}
+.blog_info a:hover
+{
+    color: var(--orange);
+    transition: .5s;
+}
+.blog_info .content
+{
+    color: var(--white);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 30px 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(3, 10, 21, 0.4) 0%, #030A15 100%);
+}
+.blog_info .content > span
+{
+    width: 65px;
+    height: 65px;
+    color: var(--white);
+    background-color: var(--orange);
+    border-radius: 10px;
+    font-family: 'Nunito';
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 -10px auto auto;
+}
+.blog_info .content .date span
+{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+}
+.blog_info ul
+{
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(248, 248, 248, 0.1);
+}
+.blog_info ul li i
+{
+    color: var(--orange);
+    margin-right: 10px;
+}
+.blog_info h3
+{
+    font-size: 24px;
+    font-family: 'Nunito';
+    margin-bottom: 20px;
+}
+.blog_info a
+{
+    color: var(--white);
+}
+.blog_info .read_more
+{
+    text-decoration: underline;
+}
+.blog_info .read_more i
+{
+    color: var(--orange);
+    font-size: 12px;
+    font-weight: bolder;
+    padding-left: 5px;
+    transition: .4s;
+}
+.blog_info .read_more:hover i 
+{
+    padding-left: 8px;
+}
+
+/* ===================== Footer Section Css ================== */
+
+.call
+{
+    background-color: var(--orange);
+    padding: 55px 45px;
+}
+.call h2
+{
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 65px;
+}
+.call button
+{
+    margin-top: 0;
+    color: var(--white);
+    background-color: var(--bgcolor); 
+    border: 1px solid black;
+    transition: .5s linear;
+}
+.call button:hover
+{
+    background-color: var(--orange);
+}
+.call button:hover i
+{
+    transform: translateX(10px);
+    transition: .5s;
+}
+
+.footer
+{
+    color: var(--white);
+    background-color: var(--bgcolor);
+}
+.footer_main
+{
+    border-bottom: 1px solid rgba(100, 100, 100, 0.4);
+    padding-bottom: 50px;
+}
+.footer_info
+{
+    width: 270px;
+    margin-right: 45px;
+}
+.footer_info h1
+{
+    font-family: 'Nunito';
+    font-weight: 900;
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+.footer_info p
+{
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.footer_info:first-child i
+{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(100, 100, 100, 0.4);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 2px;
+    transition: .5s linear;
+}
+.footer_info:first-child i:hover
+{
+    background-color: var(--orange);
+    cursor: pointer;
+}
+.footer_info h2
+{
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.footer_info ul li a
+{
+    color: var(--white);
+    font-size: 18px;
+    margin-bottom: 25px;
+    display: inline-block;
+    transition: .5s;
+}
+.footer_info ul li .arrow
+{
+    color: var(--orange);
+    display: none;
+}
+.footer_info ul li:hover .arrow
+{
+    display: inline-block;
+}
+.footer_info ul li:hover a
+{
+    color: var(--orange);
+    transform: translateX(10px);
+}
+.footer_info .info_icon
+{
+    font-size: 18px;
+}
+.footer_info .info_icon span
+{
+    line-height: 30px;
+}
+.footer_info:last-child .info_icon i
+{
+    color: var(--orange);
+    font-size: 20px;
+    margin: 6px 10px 0 0;
+} 
+.copyright
+{
+    padding: 5px 0;
+    align-items: center;
+}
+.copyright button
+{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    color: var(--white);
+    background-color: var(--orange);
+    font-weight: 900;
+    font-size: 17px;
+}
